@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: Optima;
-  background-color: #FCF7FF;
+  background-color: #FBB195;
 }
 
 .center {
@@ -23,14 +22,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #655560;
+  background: #F67280;
   padding: 2%;
   text-align: center;
 
 }
 
 .panel {
-  background-color: #655560;
+  background-color: #C06C84;
   color: #FCF7FF;
 
   width: 100%;
@@ -50,7 +49,7 @@ header {
 
 footer {
   display: flex;
-  background-color: #655560;
+  background-color: #C06C84;;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -64,7 +63,7 @@ footer {
 }
 
 .leftFooter {
-  color: #655560;
+  color: #C06C84;;
   font-size: 14px;
   margin: auto;
   padding-right: 30%;
@@ -73,7 +72,7 @@ footer {
 }
 
 .rightFooter {
-  color: #655560;
+  color: #C06C84;
   font-size: 120%;
   color: white;
 
@@ -107,6 +106,7 @@ a:active {
 
 html {
   scroll-behavior: smooth;
+  font-family:serif;
 }
 
 h1 {
@@ -137,7 +137,6 @@ section {
 }
 
 section:nth-child(1) {
-  color: #e0ffff;
   background-color: #e0ffff;
 
 }
@@ -167,13 +166,13 @@ h3 {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #655560;
+  background-color: #C06C84;;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  color: #355C7D;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -212,7 +211,7 @@ h3 {
 .same-line {
   display: flex;
   justify-content: space-between;
-  background-color: #655560;
+  background-color: #C06C84;
 
 }
 
@@ -273,4 +272,8 @@ h3 {
   content: "";
   display: table;
   clear: both;
+}
+
+#about {
+  background-color:#C06C84;
 }
